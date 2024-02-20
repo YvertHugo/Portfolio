@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio - Yvert Hugo</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="#accueil"><strong>Accueil</strong></a>
+        <a href="#quiSuisJe"><strong>Qui suis-je?</strong></a>
+        <a href="#projets"><strong>Projets réalisés</strong></a>
+        <a href="#skills"><strong>Skills/compétences</strong></a>
+        <a href="#projetAvenir"><strong>Projet d'avenir</strong></a>
+    </nav>
+
+    <div id="accueil" class="contenu-section">
+        <h1>Bienvenue sur le portfolio de Hugo Yvert</h1>
+        <h2>~ Développeur informatique ~</h2>
+        <p id="textqui">Je vous invite à visiter mon portfolio pour en savoir plus sur mon parcours, mes expériences et projets réalisés.</p>
+    </div>
+
+    <div id="quiSuisJe" class="contenu-section">
+        <h2>Qui suis-je ?</h2>
+        <p>Salut, je m'appelle Hugo Yvert, j'ai 19 ans et je suis actuellement en formation à l'école du CESI à Hérouville/Caen en tant que développeur informatique. Sortant d'une année en BUT Réseaux et Télécommunication, j'ai rapidement compris que ma véritable passion résidait dans le développement informatique.
+            <br>
+            <br>
+            Titulaire d'un bac technologique STI2D option ITEC, j'ai acquis des compétences solides en matière de conception et de résolution de problèmes techniques. J'ai trouvé ma véritable voie dans le monde du code, où chaque ligne est une opportunité de créer quelque chose de nouveau et innovant. 💻✨
+            <br>
+            <br>
+            En dehors de ma vie professionnelle, je nourris une passion profonde pour le sport 🏀. Le basket occupe une place spéciale dans ma vie en tant que passe-temps, me permettant de garder un équilibre sain entre esprit et corps. Ma passion pour les voitures 🚗, sous toutes leurs formes, et le sport automobile 🏁 illustre mon goût pour la technologie et l'innovation, des traits qui se reflètent également dans mon approche du développement informatique.
+            <br>
+            <br>
+            Actuellement en quête de stages pour enrichir mes compétences et mettre en pratique mes connaissances, je suis ouvert aux opportunités d'alternance dès maintenant et pour l'année scolaire à venir. Explorez mon portfolio pour découvrir mes projets passés, mes compétences techniques et ma vision du monde du développement informatique.
+            <br>
+            <br>
+            N'hésitez pas à me contacter pour discuter de collaborations potentielles ou simplement échanger sur nos passions communes. 📬
+            <br>
+            <br>
+            Merci de visiter mon site, et à bientôt ! 🚀👨‍💻
+        </p>
+    </div>
+
+    <div id="projets" class="contenu-section">
+        <h2>Projets réalisés</h2>
+        <div class="container">
+            <input type="radio" name="slide" id="c1">
+            <label for="c1" class="card">
+                <div class="vertical-text">
+                    <span>S</span><span>I</span><span>T</span><span>E</span>&nbsp;<span>D</span><span>E</span>&nbsp;<span>M</span><span>A</span><span>T</span><span>C</span><span>H</span><span>I</span><span>N</span><span>G</span>
+                </div>
+                <div class="row">
+                    <div class="description">
+                        <h3><em>WoafBook &nbsp;→&nbsp; projet de site de matching pour les amoureux de chiens</em></h3>
+                        <p>
+                            FONCTIONNALITÉES :
+                            <br>
+                            - Inscription Utilisateur : Les utilisateurs peuvent créer un compte sur le site
+                            <br>
+                            - Visualisation de tout les inscrits sur le site, et leur(s) chien(s), possibilité de filtré les résultats selont le type de recherche
+                            <br>
+                            <br>
+                            TECHNOLOGIES / STACKS UTILISÉS : 
+                            <br>
+                            HTML&nbsp;
+                            / &nbsp;CSS
+                            / &nbsp;PHP
+                            / &nbsp;PHPMyAdmin pour la base de données
+                            / &nbsp;Mamp comme serveur web
+                            <br>
+                            <br>
+                            TÂCHES : 
+                            <br>
+                            - BackEnd : Traitement de l'inscription et connexion (PHP) &nbsp;/&nbsp; Création de la base de donnée &nbsp;/&nbsp; Traitement de la fonction de filtrage 
+                            <br>
+                            - FrontEnd : Création du site web et des page de formulaire d'inscription / connexion (HTML / CSS / JS) 
+                        </p>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c2" >
+            <label for="c2" class="card">
+                <div class="vertical-text">
+                    <span>S</span><span>T</span><span>A</span><span>T</span><span>I</span><span>O</span><span>N</span>&nbsp;<span>M</span><span>É</span><span>T</span><span>É</span><span>O</span>
+                </div>
+                <div class="row">
+                    <div class="description">
+                        <h3><em>MacLesggy &nbsp;→&nbsp; projet de station météo &nbsp;</em>(3 personnes)</h3>
+                        <br>
+                        <p>
+                            FONCTIONNALITÉES :
+                            <br>
+                            - Inscription Utilisateur : Les utilisateurs peuvent créer un compte sur le site
+                            <br>
+                            - Visualisation des Données : Affichage en temps réel des valeurs d'humidité, de chaleur et de pression sous forme de graphiques et de valeurs directes
+                            <br>
+                            - Historique : Un historique avec la moyenne des températures des 7 derniers jours
+                            <br>
+                            <br>
+                            TECHNOLOGIES / STACKS UTILISÉES : 
+                            <br>
+                            Capteur de pression SEN0236&nbsp;
+                            / &nbsp;Rasbery pi 4
+                            / &nbsp;FastAPI pour la gestion de l'API
+                            / &nbsp;MariaDB pour la base de données
+                            / &nbsp;Apache comme serveur web
+                            <br>
+                            <br>
+                            MES TÂCHES : 
+                            <br>
+                            - BackEnd : Branchements électroniques &nbsp;/&nbsp; Mocker l'API + création de quelques routes (FastAPI) 
+                            <br>
+                            - FrontEnd : Création du site web en duo (HTML / CSS / JS) &nbsp;/&nbsp; Création des graphique via ChartsJS
+                        </p>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c3" >
+            <label for="c3" class="card">
+                <div class="vertical-text">
+                    <span>B</span><span>A</span><span>D</span><span>G</span><span>E</span><span>A</span><span>G</span><span>E</span>
+                </div>
+                <div class="row">
+                    <div class="description">
+                        <h3><em>HMC &nbsp;→&nbsp; projet de Badgeage d'entreprise (côté RH)&nbsp;</em>(3 personnes)</h3>
+                        <p>
+                            FONCTIONNALITÉES :
+                            <br>
+                            - Inscription Employé : Possibilité d'affilier un badge à un employé, de le scanner, de le mofifier, de le supprimer 
+                            <br>
+                            - Visualisation des Données : Affichage en temps réel des heures à lesquelles l'employé a scanné son badge. Si ce dernier oublie, possible de le faire manuellement depuis le site web 
+                            <br>
+                            - Historique : Un historique du mois de temps de travail par semaine d'un employé x
+                            <br>
+                            <br>
+                            TECHNOLOGIES / STACKS UTILISÉES : 
+                            <br>
+                            Module RFID-RC522 et badge RFID&nbsp;
+                            / &nbsp;Rasbery pi 4
+                            / &nbsp;FastAPI pour la gestion de l'API
+                            / &nbsp;PostgreSQL pour la base de données
+                            / &nbsp;Apache comme serveur web
+                            <br>
+                            <br>
+                            MES TÂCHES : 
+                            <br>
+                            - BackEnd : Branchements électroniques &nbsp;/&nbsp; création des scripts d'écriture et de lecture du badge (python) &nbsp;/&nbsp; Création de routes d'API pour les fonctionnalités du site (FastAPI) et traitement en JS
+                        </p>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c4" >
+            <label for="c4" class="card">
+                <div class="vertical-text">
+                    <span>A</span><span>V</span><span>E</span><span>N</span><span>G</span><span>E</span><span>R</span><span>S</span>
+                </div>
+                <div class="row">
+                    <div class="description">
+                        <h3><em>AVENGERS</em> (4 personnes)</h3>
+                        <p>EN COURS &nbsp;&nbsp;&nbsp; |||||‧‧‧‧‧‧‧‧‧‧‧‧‧‧</p>
+                    </div>
+                </div>
+            </label>
+        </div>
+    </div>
+
+    <div id="skills" class="contenu-section">
+        <h2>Skills/stacks</h2>
+        <div class="skills-logo">
+            <div class="skills-logo"">
+                <img src="htmlcss-logo-title.svg" alt="Langage 1">
+                <img src="sql.png" alt="Langage 2">
+                <img id="C" src="c.png" alt="Langage 3">
+                <img src="Java-Logo.png" alt="Langage 4">
+                <img id="python" src="python.png" alt="Langage 5">
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="softSkills"></div>
+            <h2>Soft Skills</h2>
+            <div class="soft">
+                <p>Autonomie</p>
+                <p>Travail d'équipe</p>
+                <p>Logique</p>
+                <p>Stratégie</p>
+            </div>
+    </div>
+
+    <div id="projetAvenir" class="contenu-section">
+        <h2>Projet d'avenir</h2>
+        <p>Je suis passionné par le développement informatique, avec de bonnes bases base en développement Front-End, l'ambition de devenir développeur Full-Stack serais une excellente solution. Mon objectif est de maîtriser la création de solutions web complètes, en alliant esthétique et fonctionnalité.
+            <br>
+            <br>
+            En parallèle, je projette de lancer une entreprise de développement web avec mon frère. Notre vision est de proposer des services personnalisés et innovants, en mettant nos compétences complémentaires au service des besoins spécifiques de nos clients.
+            <br>
+            <br>
+            Par ailleurs, je suis également attiré par le domaine du développement de jeux vidéo. Si le projet d'entreprise familiale ne se concrétise pas, j'envisage d'explorer cette voie, fasciné par la possibilité de créer des univers interactifs et immersifs.
+            <br>
+            <br>
+            Notre démarche s'inscrit dans une volonté de qualité et d'excellence, avec l'ambition de contribuer activement à l'évolution du secteur du développement web et du jeu vidéo.</p>
+    </div>
+
+    <div id="logo">
+        <a href="https://www.linkedin.com/in/hugo-yvert-934a42259/">
+            <img src="Linkedin.png" alt="LinkedIn">
+        </a>
+        <a href="https://github.com/YvertHugo">
+            <img src="GitHub.png" alt="GitHub">
+        </a>
+        <a href="mailto:yverthugo@gmail.com">
+            <img src="Mail.png" alt="Email">
+        </a>
+    </div>
+    <p id="tel">Tel : 06 49 58 87 43</p>
+
+    <script>
+        document.querySelectorAll('.navbar a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                var targetId = this.getAttribute('href');
+                var target = document.querySelector(targetId);
+                var navbarHeight = document.querySelector('.navbar').offsetHeight;
+                var targetPosition = target.getBoundingClientRect().top + window.pageYOffset - navbarHeight;
+        
+                window.scrollTo({
+                    top: targetPosition,
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
